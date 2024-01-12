@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Allow scrolling */
+    transition: background-color 1s ease; /* Smooth transition */
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set text color to white */
+}
+
+header {
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #00f;
+}
+
+section, footer {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+}
+/* Style for the WhatsApp contact section */
+.whatsapp-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+  }
+  
+  /* Style for the WhatsApp logo */
+  .whatsapp-logo {
+    width: 40px;
+    margin-right: 1em;
+  }
+  
+  /* Style for the WhatsApp button */
+  .whatsapp-button {
+    background-color: green;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    text-decoration: none;
+    width: 200px;
+  }
+  
+  .main-features { 
+  margin-top: -50px;
+}
+
+/* Your existing styles */
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.whatsapp-button,
+.topics-button,
+.custom-button {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add space between the button and the paragraph */
+    text-decoration: none;
+    display: inline-block; /* Make sure the button is an inline block */
+}
+
+.topics-button:hover,
+.custom-button:hover {
+    background-color: #2980b9; /* Change background color on hover */
+}
+
+/* Additional styles to center align the button within the section */
+.topics-section {
+    text-align: center; /* Center align the content within the section */
+    margin-top: 10px; /* Adjust margin as needed */
+}
+.scroll-down-arrow {
+    text-align: center;
+    margin-top: 20px;
+}
